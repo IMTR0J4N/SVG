@@ -47,7 +47,7 @@ jobs:
         run: |
           node updater.js IMTR0J4N atom
         env:
-          GHT: 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
+          GHT: ${{ secrets.GHT }}
           
       # Commiting
       - name: commiting changed svg template
