@@ -39,8 +39,8 @@ jobs:
           
       - name: Github Configurations
         run: |
-          git config --global user.name "Github Actions"
-          git config --global user.email "action@github.com"
+          git config --global user.name "IMTR0J4N"
+          git config --global user.email "jjorgebeau@edenschool.fr"
           git pull
           
       - name: Update Template
