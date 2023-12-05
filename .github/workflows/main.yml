@@ -45,7 +45,7 @@ jobs:
           
       - name: Update Template
         run: |
-          node updater.js IMTR0J4N atom
+          node updater.js IMTR0J4N googledark
         env:
           GHT: ${{ secrets.GHT }}
           
